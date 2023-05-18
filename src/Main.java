@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Mudei no git");
+      HelloSwing form = new HelloSwing();
+      form.setContentPane(form.painelPrincipal);
+      form.setTitle("Hello panel");
+      form.setSize(500,500);
+      form.setVisible(true);
     }
 }
